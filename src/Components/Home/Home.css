@@ -1,0 +1,32 @@
+html{
+
+    scroll-behavior: smooth; /*To make scrolling behaviour Smooth*/
+}
+
+.home{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    margin: auto;
+    background-color: #044b55;
+    
+    
+}
+/*To make the site responsive i.e to style it differently according to different screen sizes */
+/*Below are the two breakpoints */
+
+@media only screen and (max-width: 1024px){
+    .home{
+        width: 90%;
+    }
+    
+    }
+    
+    @media only screen and (max-width:512px){
+     .home{
+         width:100%;
+     }
+    
+    }

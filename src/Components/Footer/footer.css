@@ -1,0 +1,9 @@
+.footer{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #fefefe;
+    font-family: 'Lora', serif;
+}
